@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter jasmine_sprout tulip wayne,$(TARGET_DEVICE)),)
+ifneq ($(filter jasmine_sprout twolip wayne,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libantradio
